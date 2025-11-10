@@ -38,7 +38,7 @@
     opacity:0.9;
   }
   #mainNav {
-  position: static; /*must not be fixed -- leave static here*/
+  position: fixed; /*static*/
   top: 0;
   right: 0;
   left: 0;
@@ -49,6 +49,9 @@
 }
    @media (max-width: 991px) {
   /*.nav-link{color:#6c757d!important;}*/
+  #mainNav {
+  position: static;
+  }
   .navbar-brand{color: var(--mycolor-primary)!important;}
    }
   /* the background from styles1 is here*/
