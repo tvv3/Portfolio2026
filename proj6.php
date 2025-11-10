@@ -1,7 +1,7 @@
 <?php
 $i=6;
 $titlu="Sudoku";//se fol in title si in #abouProject
-$demolink="#";
+$demolink="https://youtu.be/O5UfITz0EjU";
 $descriere_about="Realizat in C#";//se fol in sectiunea descriere adica #aboutProject
 $descriere_detaliata_proiect="Proiectul Sudoku este realizat in C# si windows forms. Initial grila este goala. Se apasa pe unul dintre cele 2 butoane 
                      pentru a obtine o grila partiala care trebuie completata. O data cu grila partiala se salveaza intr-o variabila grila completa si ulterior 
@@ -15,9 +15,14 @@ $descriere_detaliata_proiect="Proiectul Sudoku este realizat in C# si windows fo
                      In casute este permisa doar scrierea unei cifre de la 1 la 9.";
 //$imgfull="assets/img/portfolio/proj".$i."/fullsize/"; //cale proj
 //$imgthmb="assets/img/portfolio/proj".$i."/thumbnails/";//cale proj
-$nr=1;//number of images
-$imgdescr[1]=$titlu." - 1";
-$alt=array(1=>"alt1");
+$nr=6;//number of images
+$imgdescr=[];
+$alt=[];
+for($j=1; $j<=$nr;$j++)
+{
+$imgdescr[$j]=$titlu." - ".$j;
+$alt[$j]="alt".$j;
+}
 
 require("views/proj-master.php");
 ?>
