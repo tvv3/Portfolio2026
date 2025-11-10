@@ -100,8 +100,8 @@
   color:#fff;
 }
 
-.btn-dark2{background-color:darkgray!important; color:black!important;}
-.btn-dark2:hover{background-color:darkgray!important;color:black!important;}
+.btn-dark2, .btn-dark2:hover{background-color:darkgray!important; color:rgba(0,0,0,0.8)!important;}
+
 
 .nav-link.active, .navbar-brand{ color:var(--mycolor-primary)!important;}
 
