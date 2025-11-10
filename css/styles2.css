@@ -38,7 +38,7 @@
     opacity:0.9;
   }
   #mainNav {
-  position: fixed;
+  position: static; /*must not be fixed -- leave static here*/
   top: 0;
   right: 0;
   left: 0;
