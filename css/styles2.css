@@ -37,10 +37,31 @@
     color: #212529;
     opacity:0.9;
   }
+  #mainNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index:1030;
+  box-shadow: none!important;/*0 0.5rem 1rem rgba(0, 0, 0, 0.15);*/
+  background-color: #543927!important;
+  
+}
+   @media (max-width: 991px) {
+  /*.nav-link{color:#6c757d!important;}*/
+  .navbar-brand{color: var(--mycolor-primary)!important;}
+   }
   /* the background from styles1 is here*/
   header.masthead {
-    background: linear-gradient(to bottom, #543927 0%,  rgba(66, 55, 47, 0.8) 100%), 
-                url("../assets/img/bg-image.jpg");
+    background:  #543927;/*linear-gradient(to bottom, #543927 0%,  rgba(66, 55, 47, 0.8) 100%), 
+                url("../assets/img/bg-image.jpg");*/
+    padding-top: 1rem!important;
+    
+  }
+
+
+  @media (min-width: 992px) {
+    header.masthead { padding-top: 0rem!important; padding-bottom:2rem!important;}
   }
 
  
@@ -57,19 +78,20 @@
   .navbar-brand:hover, .navbar-brand:focus, .nav-link:hover, .nav-link:focus {
     color: var(--mycolor-primary)!important;
   }
-  #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-    color: var(--mycolor-primary)!important;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: var(--mycolor-primary)!important;
-  }
+  
+  
 
   .masthead hr.divider, #services hr.divider, #contact hr.divider{background-color:var(--mycolor-primary)!important;}
 
 /* footer a*/
   a.mycolor{color: var(--mycolor-primary)!important;}
 
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+   #portfolio .container-sm .portfolio-box .portfolio-box-caption,
+    #portfolio .container-md .portfolio-box .portfolio-box-caption,
+     #portfolio .container-lg .portfolio-box .portfolio-box-caption,
+      #portfolio .container-xl .portfolio-box .portfolio-box-caption,
+       #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
   
   background: var(--rgba-color);/*rgba(244, 98, 58, 0.9);*/
   color:#fff;
@@ -77,3 +99,7 @@
 
 .btn-dark2{background-color:darkgray!important; color:black!important;}
 .btn-dark2:hover{background-color:darkgray!important;color:black!important;}
+
+.nav-link.active, .navbar-brand{ color:var(--mycolor-primary)!important;}
+
+.navbar-brand{ color:whitesmoke!important;}

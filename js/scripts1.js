@@ -55,7 +55,8 @@ window.addEventListener('DOMContentLoaded', event => {
    /* new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
     });*/
-
+    /* trebuie pastrate lightbox-ul pentru active nav-links dar am dezactivat in index din html am schimbat tagurile si acum 
+    nu se mai deschide caruselul si in pagina de index la portofoliu */
     var lightbox = new SimpleLightbox('#portfolio a.portfolio-box', 
     {overlay:true, overlayOpacity:0.9, nav:true});
 

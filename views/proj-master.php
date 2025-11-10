@@ -43,20 +43,20 @@ if ((!isset($demolink))) $demolink="#";
         <!--link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" /-->
         <link href="node_modules/mydist2022/simplelightbox/dist/simple-lightbox.min.css" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles1.css" rel="stylesheet" />
+        <link href="css/styles1.css?v=<?php echo time();?>" rel="stylesheet" />
         <!-- extra css-->
         <link href="css/styles2.css?v=<?php echo time();?>" rel="stylesheet" />
        
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <nav class="navbar navbar-expand-lg py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html#page-top">Portofoliul</a>
+                <a class="navbar-brand" href="index.php#acasa-top">Portofoliul</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html#page-top">Inapoi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php#acasa-top">Inapoi</a></li>
                         <li class="nav-item"><a class="nav-link" href="#headerProject">Pagina proiect</a></li>
                         <li class="nav-item"><a class="nav-link" href="#aboutProject">Descriere proiect</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Galerie</a></li>

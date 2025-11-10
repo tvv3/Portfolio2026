@@ -18,30 +18,30 @@
         <!--link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" /-->
         <link href="node_modules/mydist2022/simplelightbox/dist/simple-lightbox.min.css" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles1.css?v=4" rel="stylesheet" />
+        <link href="css/styles1.css?v=<?php echo time();?>" rel="stylesheet" />
          <!-- extra css-->
-        <link href="css/styles2.css?v=4" rel="stylesheet" />
+        <link href="css/styles2.css?v=<?php echo time();?>" rel="stylesheet" />
         
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <nav class="navbar navbar-expand-lg py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Portofoliul</a>
+                <a class="navbar-brand" href="index.php#acasa-top">Portofoliul</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#page-top">Acasa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#acasa-top">Acasa</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Despre noi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Tehnologii</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portofoliu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services1">Tehnologii</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio-section1">Portofoliu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact1">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" id="acasa-top">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
@@ -73,7 +73,7 @@
             </div>
         </section>
         <!-- Services-->
-        <section class="page-section" id="services">
+        <section class="page-section" id="services1">
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">Tehnologii folosite</h2>
                 <hr class="divider" />
@@ -116,6 +116,7 @@
             </div>
         </section>
         <!-- Portfolio-->
+        <section class="page-section" id="portfolio-section1">
         <div id="portfolio">
             <div class="container-fluid py-3">
                 <div class="row g-1"> <!--g-0-->
@@ -219,6 +220,7 @@
             
             </div>
         </div>
+        </section>
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
@@ -227,7 +229,7 @@
             </div>
         </section>
         <!-- Contact-->
-        <section class="page-section" id="contact">
+        <section class="page-section" id="contact1">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
@@ -259,7 +261,7 @@
         <script src="node_modules/mydist2022/simplelightbox/dist/simple-lightbox.min.js"></script>
         <!--https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js-->
         <!-- Core theme JS-->
-        <script src="js/scripts1forIndex.js"></script>
+        <script src="js/scripts1.js"></script>
        
     </body>
 </html>
