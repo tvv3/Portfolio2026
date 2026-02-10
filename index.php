@@ -140,11 +140,11 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-box"  title="Project Task Management v7b">
+                        <div class="portfolio-box"  title="Project Task Management v7c">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/9.jpg" alt="..." />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-category text-white-50">Laravel 11 api si vue js 3 frontend</div>
-                                <div class="project-name">Task Management v7b <br> <text class="btnDetalii" onclick="gotoproj(9)">Detalii</text></div>
+                                <div class="project-name">Task Management v7c <br> <text class="btnDetalii" onclick="gotoproj(9)">Detalii</text></div>
                             </div>
                         </div>
                     </div>
