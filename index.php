@@ -66,7 +66,7 @@
                         <h2 class="text-white mt-0">Check it out!</h2>
                         <hr class="divider divider-light" />
                         <p class="text-white-75 mb-4">O parte dintre proiectele descrise sunt disponibile si pe contul de github.</p>
-                        <a class="btn btn-light btn-xl" href="#services">Detalii proiecte</a>
+                        <a class="btn btn-light btn-xl" href="#services1">Detalii proiecte</a>
                         
                     </div>
                 </div>
