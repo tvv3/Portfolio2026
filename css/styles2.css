@@ -1,0 +1,108 @@
+:root{
+    --mycolor-primary:#e3c16f;/*#BAAB68; /*#f4623a;*/
+    --mycolor-primary-hover:#A8974D; /*#f4623a;*/
+    --rgba-color:rgba(227, 193, 111,0.9);/*rgba(186, 171, 104, 0.9); /*for portfolio box*/
+  }
+
+
+.btnDetalii {
+    background-color: white;
+    display:inline-block;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .btnDetalii {
+      transition: none;
+    }
+  }
+  .btnDetalii:hover {
+    color: #212529;
+    opacity:0.9;
+  }
+  #mainNav {
+  position: fixed; /*static*/
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index:1030;
+  box-shadow: none!important;/*0 0.5rem 1rem rgba(0, 0, 0, 0.15);*/
+  background-color: #543927!important;
+  
+}
+   @media (max-width: 991px) {
+  /*.nav-link{color:#6c757d!important;}*/
+  #mainNav {
+  position: static;
+  }
+  .navbar-brand{color: var(--mycolor-primary)!important;}
+   }
+  /* the background from styles1 is here*/
+  header.masthead {
+    background:  #543927;/*linear-gradient(to bottom, #543927 0%,  rgba(66, 55, 47, 0.8) 100%), 
+                url("../assets/img/bg-image.jpg");*/
+    padding-top: 1rem!important;
+    
+  }
+
+
+  @media (min-width: 992px) {
+    header.masthead { padding-top: 0rem!important; padding-bottom:2rem!important;}
+  }
+
+ 
+  .bg-primary{background-color:var(--mycolor-primary)!important;}
+  
+  .btn-primary{background-color:var(--mycolor-primary)}
+  
+  .btn-primary:hover{background-color:var(--mycolor-primary-hover);}
+
+  #services h3.mycolor{
+    color:var(--mycolor-primary)!important;
+    
+  }
+  .navbar-brand:hover, .navbar-brand:focus, .nav-link:hover, .nav-link:focus {
+    color: var(--mycolor-primary)!important;
+  }
+  
+  
+
+  .masthead hr.divider, #services hr.divider, #contact hr.divider{background-color:var(--mycolor-primary)!important;}
+
+/* footer a*/
+  a.mycolor{color: var(--mycolor-primary)!important;}
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+   #portfolio .container-sm .portfolio-box .portfolio-box-caption,
+    #portfolio .container-md .portfolio-box .portfolio-box-caption,
+     #portfolio .container-lg .portfolio-box .portfolio-box-caption,
+      #portfolio .container-xl .portfolio-box .portfolio-box-caption,
+       #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+  
+  background: var(--rgba-color);/*rgba(244, 98, 58, 0.9);*/
+  color:#fff;
+}
+
+.btn-dark2, .btn-dark2:hover{background-color:darkgray!important; color:rgba(0,0,0,0.8)!important;}
+
+
+.nav-link.active, .navbar-brand{ color:var(--mycolor-primary)!important;}
+
+.navbar-brand{ color:whitesmoke!important;}
