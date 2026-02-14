@@ -36,6 +36,7 @@
                         <li class="nav-item"><a class="nav-link" href="index.php#services1">Tehnologii</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.php#portfolio-section1">Portofoliu</a></li>
                         <!--li class="nav-item"><a class="nav-link" href="index.php#contact1">Contact</a></li-->
+                        <li class="nav-item"><a class="nav-link" href="index.php#github">Github</a></li>
                     </ul>
                 </div>
             </div>
@@ -222,7 +223,7 @@
         </div>
         </section>
         <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
+        <section class="page-section bg-dark text-white" id="github">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4">Viziteaza github acum!</h2>
                 <a class="btn btn-light btn-xl" href="https://github.com/tvv3">Github Repo</a>
