@@ -20,7 +20,7 @@ $imgdescr[4]="Sala Gym - 4";
 $imgdescr[5]="Sala Gym - 5";
 $imgdescr[6]="Sala Gym - 6";
 
-$alt=array(1=>"alt1",2=>"alt2",3=>"alt3",4=>"alt4",5=>"alt5",6=>"alt6");
+$alt=array(1=>"alt1",2=>"alt2",3=>"alt3",4=>"alt4",5=>"alt5",6=>"alt 6");
 
 require("views/proj-master.php");
 ?>
