@@ -227,6 +227,10 @@
                 <h2 class="mb-4">Viziteaza github acum!</h2>
                 <a class="btn btn-light btn-xl" href="https://github.com/tvv3">Github Repo</a>
             </div>
+            <br>
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2026</div></div>
+
+            <div class="container px-4 px-lg-5 pt-2"><div class="small text-center text-muted">Credit goes to <a href="https://themewagon.com/themes/free-bootstrap-5-html-5-personal-portfolio-website-template-creative/" class="mycolor">Themewagon </a></div></div>
         </section>
         <!-- Contact-->
         <!--section class="page-section" id="contact1">
@@ -248,12 +252,12 @@
             </div>
         </section-->
         <!-- Footer-->
-        <footer class="bg-light py-5">
+        <!--footer class="bg-light py-5">
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2026</div></div>
 
             <div class="container px-4 px-lg-5 pt-2"><div class="small text-center text-muted">Credit goes to <a href="https://themewagon.com/themes/free-bootstrap-5-html-5-personal-portfolio-website-template-creative/" class="mycolor">Themewagon </a>
             </div></div>
-        </footer>
+        </footer-->
         <!-- Bootstrap core JS-->
         <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script-->
         <script src="node_modules/mydist2022/bootstrap/dist/js/bootstrap.min.js"></script>
