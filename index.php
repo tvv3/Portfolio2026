@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Portofoliul</title>
+        <title>Portofoliul meu</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
         <!-- Bootstrap Icons-->
@@ -27,7 +27,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.php#acasa-top">Portofoliul</a>
+                <a class="navbar-brand" href="index.php#acasa-top">Portofoliul meu</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
@@ -35,7 +35,7 @@
                         <li class="nav-item"><a class="nav-link" href="index.php#about">Despre noi</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.php#services1">Tehnologii</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.php#portfolio-section1">Portofoliu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php#contact1">Contact</a></li>
+                        <!--li class="nav-item"><a class="nav-link" href="index.php#contact1">Contact</a></li-->
                     </ul>
                 </div>
             </div>
@@ -45,7 +45,7 @@
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Portofoliul</h1>
+                        <h1 class="text-white font-weight-bold">Portofoliul meu</h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
@@ -224,12 +224,12 @@
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Viziteaza github repository acum!</h2>
-                <a class="btn btn-light btn-xl" href="https://github.com">Github Repo</a>
+                <h2 class="mb-4">Viziteaza github acum!</h2>
+                <a class="btn btn-light btn-xl" href="https://github.com/tvv3">Github Repo</a>
             </div>
         </section>
         <!-- Contact-->
-        <section class="page-section" id="contact1">
+        <!--section class="page-section" id="contact1">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
@@ -241,15 +241,15 @@
                 
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi bi-envelope-fill fs-2 mb-3 text-muted"></i> <!--bi-phone-->
+                        <i class="bi bi-envelope-fill fs-2 mb-3 text-muted"></i> 
                         <div></div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section-->
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2025</div></div>
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2026</div></div>
 
             <div class="container px-4 px-lg-5 pt-2"><div class="small text-center text-muted">Credit goes to <a href="https://themewagon.com/themes/free-bootstrap-5-html-5-personal-portfolio-website-template-creative/" class="mycolor">Themewagon </a>
             </div></div>

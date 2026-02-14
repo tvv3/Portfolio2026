@@ -60,7 +60,7 @@ if ((!isset($demolink))) $demolink="#";
                         <li class="nav-item"><a class="nav-link" href="#headerProject">Pagina proiect</a></li>
                         <li class="nav-item"><a class="nav-link" href="#aboutProject">Descriere proiect</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Galerie</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <!--li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li-->
                     </ul>
                 </div>
             </div>
@@ -127,12 +127,12 @@ if ((!isset($demolink))) $demolink="#";
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Viziteaza github repository acum!</h2>
-                <a class="btn btn-light btn-xl" href="https://github.com">Github Repo!</a>
+                <h2 class="mb-4">Viziteaza github acum!</h2>
+                <a class="btn btn-light btn-xl" href="https://github.com/tvv3">Github Repo!</a>
             </div>
         </section>
         <!-- Contact-->
-        <section class="page-section" id="contact">
+        <!--section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
@@ -144,12 +144,13 @@ if ((!isset($demolink))) $demolink="#";
                 
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi bi-envelope-fill fs-2 mb-3 text-muted"></i> <!--bi-phone-->
+                        <i class="bi bi-envelope-fill fs-2 mb-3 text-muted"></i> 
                         <div></div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section--> 
+        <!--bi-phone-->
         <!-- Footer-->
         <footer class="bg-light py-5">
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2025</div></div>
