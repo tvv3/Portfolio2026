@@ -30,6 +30,7 @@ if ((!isset($demolink))) $demolink="#";
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <meta name="robots" content="noindex, nofollow">
         <title>Proiectul - <?php echo $titlu;?></title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
@@ -60,7 +61,8 @@ if ((!isset($demolink))) $demolink="#";
                         <li class="nav-item"><a class="nav-link" href="#headerProject">Pagina proiect</a></li>
                         <li class="nav-item"><a class="nav-link" href="#aboutProject">Descriere proiect</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Galerie</a></li>
-                        <!--li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li-->
+                           <li class="nav-item"><a class="nav-link" href="politica-cookies.php">Cookies</a></li>
+                     
                         <li class="nav-item"><a class="nav-link" href="index.php#github">Github</a></li>
                     </ul>
                 </div>

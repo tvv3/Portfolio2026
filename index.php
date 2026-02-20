@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <meta name="robots" content="noindex, nofollow">
         <title>Portofoliul meu</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
@@ -35,7 +36,7 @@
                         <li class="nav-item"><a class="nav-link" href="index.php#about">Despre noi</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.php#services1">Tehnologii</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.php#portfolio-section1">Portofoliu</a></li>
-                        <!--li class="nav-item"><a class="nav-link" href="index.php#contact1">Contact</a></li-->
+                        <li class="nav-item"><a class="nav-link" href="politica-cookies.php">Cookies</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.php#github">Github</a></li>
                     </ul>
                 </div>
