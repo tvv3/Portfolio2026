@@ -1,3 +1,16 @@
+<?php
+$emailOutput = "";
+
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["show_email"])) {
+    $part1 = "tvv363";
+    $part2 = "gmail";
+    $part3 = "com";
+
+    $email = $part1 . "@" . $part2 . "." . $part3;
+
+    $emailOutput = '<strong><a href="mailto:' . $email . '">' . $email . '</a></strong>';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -103,6 +116,15 @@ Acest site NU utilizează:
 
 <p>Utilizatorii pot configura browserul pentru a bloca sau șterge cookie-urile. Dezactivarea cookie-urilor strict necesare poate afecta funcționarea corectă a site-ului.
 </p>
+
+<h2> 3. Contact</h2>
+<form method="POST">
+    <button type="submit" name="show_email">Arată email</button>
+</form>
+
+<div>
+    <?php echo $emailOutput; ?>
+</div>
 
 </section>
 
